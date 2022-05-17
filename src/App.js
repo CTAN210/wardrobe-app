@@ -7,7 +7,7 @@ function App() {
   
 
   const wardrobeElements = [50,75,100,120];
-  const wardrobeTarget = 300
+  const wardrobeTarget = 250
 
   const result = combinationSum(wardrobeElements,wardrobeTarget);
   const result1 = calculatePrice(result);

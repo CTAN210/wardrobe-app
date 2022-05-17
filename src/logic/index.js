@@ -1,5 +1,5 @@
 
-export const combinationSum = function(candidates, target) {
+const combinationSum = function(candidates, target) {
 
     let res = [];
     let temp = [];
@@ -25,7 +25,7 @@ export const combinationSum = function(candidates, target) {
 
   };
 
-export const calculatePrice = function(combinations){
+const calculatePrice = function(combinations){
     const myMap = new Map([
         [50,59],
         [75,62],
@@ -42,3 +42,8 @@ export const calculatePrice = function(combinations){
     }
     return sum;
 };
+
+module.exports = {
+    combinationSum,
+    calculatePrice
+}
